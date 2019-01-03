@@ -1,0 +1,11 @@
+{
+    "/catalog/api/*": {
+      "target": "http://localhost:60446",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
