@@ -13,7 +13,7 @@ export class CustomerListComponent implements OnInit {
   constructor(private customerService: CustomerService) { }
 
   ngOnInit() {
-    this.customerService.getCustomer(4)
+    this.customerService.getCustomer(3)
       .subscribe(customer => this.customer = customer);
   }
 

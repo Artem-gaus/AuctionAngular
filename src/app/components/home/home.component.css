@@ -1,0 +1,11 @@
+.title-center {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 5%;
+}
+.img-center {
+    margin-left: 23%;
+}
+h1 {
+    font-size: 80px;
+}
